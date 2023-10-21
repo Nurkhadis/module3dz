@@ -65,7 +65,7 @@ namespace module3dz
                 return word;
             }).ToArray();
             resultString = string.Join(" ", words);
-            Console.WriteLine($"Строка с выделенными квадратными скобками: {resultString}");
+            Console.WriteLine($" Строка с выделенными квадратными скобками: {resultString}");
 
             // Задание 11: Обнулить элементы тех строк, на пересечении которых с главной диагональю стоит четный элемент
             int[,] matrix = { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 } };
